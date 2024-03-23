@@ -10,3 +10,6 @@ Handle connection yang baru tersebut sekarang akan mengembalikan sebuah response
 Untuk memberikan response yang berbeda-beda, pertama kita perlu mendapat data mengenai jenis request serta url yang digunakan dengan membaca stream dan melakukan operasi terhadap hasil stream tersebut. Setelah itu kita tinggal menggunakan if tree untuk memberikan response yang sesuai terhadap metode dan url dari request tersebut.
 
 Selain itu, refactoring yang terjadi diperlukan untuk membuat fungsi tersebut lebih pendek dan mudah dibaca dengan mengurangi repetisi penulisan kode dan memperjelas bagian apa yang berbeda dari tiap case.
+
+# Commit 4 reflection
+Yang terjadi adalah /sleep membuat thread yang digunakan server (komputer kita) untuk menjalankan program mengalami sleep selama 10 detik sehingga tidak akan ada operasi yang berjalan selama 10 detik karena thread tersebut sedang sleep.
