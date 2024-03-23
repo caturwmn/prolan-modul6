@@ -13,3 +13,8 @@ Selain itu, refactoring yang terjadi diperlukan untuk membuat fungsi tersebut le
 
 # Commit 4 reflection
 Yang terjadi adalah /sleep membuat thread yang digunakan server (komputer kita) untuk menjalankan program mengalami sleep selama 10 detik sehingga tidak akan ada operasi yang berjalan selama 10 detik karena thread tersebut sedang sleep.
+
+# Commit 5 reflection
+ThreadPool berfungsi untuk membuat program dapat berjalan menggunakan thread yang disediakan di ThreadPool serta membatasi jumlah thread yang berjalan untuk menghindari hal-hal seperti DDOS attack.
+ThreadPool yang digunakan pada buku tersebut diimplementasikan secara manual menggunakan beberapa modul yang sudah disediakan pada rust untuk proses sinkronisasi serta thread yang digunakan.
+ThreadPool tersebut juga menggunakan worker yang diimplementasikan secara manual untuk mngkostumisasi thread.
